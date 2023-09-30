@@ -18,12 +18,12 @@ def run_1():
         print("Process exists. Location is",text_location)
 
 def run_2():
-    process_read = os.popen("ps -ef | grep _send.py | grep -v 'grep'").readlines()
+    process_read = os.popen("ps -ef | grep send.py | grep -v 'grep'").readlines()
     # ps -ef 명령어를 이용해서 현재 프로세스를 출력한 후, 그 중 run24h.py 문자열이 포함된 줄만 모은다.
     # grep 명령어 자체도 프로세스에 나타나므로 grep -v를 이용해서 제외한다.
     check_process = str(process_read)
     # 문자열로 변환한다.
-    text_location=check_process.find("_send.py")
+    text_location=check_process.find("send.py")
 
     if ( text_location == -1 ):
         print("Process not found!")
