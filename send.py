@@ -72,7 +72,7 @@ def run(code):
 
                 print(f"코드 실행 시간: {end_time - start_time} 초")
                 os.remove(image_file_path)
-
+                os.system('sudo echo 3 > /proc/sys/vm/drop_caches')
 
 if __name__ == "__main__":
     try:
