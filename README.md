@@ -10,3 +10,6 @@ https://drive.google.com/file/d/1jBTOzNma-OTvPM2qyRAIB40FuQjDYuMu/view?usp=drive
 # 시스템 실행백업
 crontab -e
 * * * * * sudo python3 /home/user/cam/share/Python/_run.py > /home/user/cam.log 2>&1
+* 22 * * * sudo reboot
+* 01 * * * sudo reboot
+* 04 * * * sudo reboot
