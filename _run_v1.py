@@ -11,6 +11,8 @@ def run_1():
 
     if ( text_location == -1 ):
         print("Process not found!")
+        path = '/home/user/cam/share/Python'
+        os.chdir(path)
         os.system("sudo nohup python3 /home/user/cam/share/Python/main.py &")
         # 해당 프로그램을 다시 실행한다. 백그라운드에서 실행할 경우 &기호를 붙인다.
         print("Program restarted!")
