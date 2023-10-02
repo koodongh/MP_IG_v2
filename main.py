@@ -595,7 +595,7 @@ def demo():
             #cv2.imshow('myWindow', cvImage)
         time.sleep(1)
         gc.collect()
-        os.system('sudo echo 3 > /proc/sys/vm/drop_caches')
+        #os.system('sudo echo 3 > /proc/sys/vm/drop_caches')
            # time.sleep(5)
         #else:
         #    pass
