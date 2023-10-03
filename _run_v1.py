@@ -64,7 +64,7 @@ if __name__ == "__main__":
             time.sleep(1)
             run_2()
             time.sleep(20)
-        if Step_2 == 0 :
+        if Step_1 == 0 :
             continue
             time.sleep(20)
 
