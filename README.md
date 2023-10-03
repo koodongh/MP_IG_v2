@@ -2,6 +2,8 @@
 # 엔비젼 SDK
 https://drive.google.com/file/d/1jBTOzNma-OTvPM2qyRAIB40FuQjDYuMu/view?usp=drive_link
 
+sudo ./MVviewer.run force 
+
 # 해당폴더 복사
 1. send.py
 2. main.py
