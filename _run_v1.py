@@ -57,16 +57,12 @@ def run_2():
         print("Process exists. Location is",text_location)
 
 if __name__ == "__main__":
-    while True:
-        Step_1 = run_()
-        if Step_1 == -1 :     
-            run_1()
-            time.sleep(1)
-            run_2()
-            time.sleep(20)
-        if Step_1 == 0 :
-            continue
-            time.sleep(20)
+    
+    run_1()
+    time.sleep(1)
+    run_2()
+    time.sleep(2)
+
 
 #00 19 * * * sudo reboot
 #00 01 * * * sudo reboot
