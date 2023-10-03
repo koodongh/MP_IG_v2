@@ -14,4 +14,5 @@ crontab -e
 * * * * * sudo python3 /home/user/cam/share/Python/_run.py > /home/user/cam.log 2>&1
 * 21 * * * sudo reboot
 * 01 * * * sudo reboot
-* 04 * * * sudo reboot
+* 03 * * * sudo reboot
+* 06 * * * sudo reboot
