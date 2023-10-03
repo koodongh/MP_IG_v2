@@ -42,7 +42,7 @@ if __name__ == "__main__":
         run_2()
         time.sleep(20)
 
-
+#00 19 * * * sudo reboot
 #00 01 * * * sudo reboot
 #00 06 * * * sudo reboot
 #00 09 * * * sudo reboot
