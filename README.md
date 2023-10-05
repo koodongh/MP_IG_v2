@@ -16,3 +16,6 @@ crontab -e
 * 01 * * * sudo reboot
 * 03 * * * sudo reboot
 * 06 * * * sudo reboot
+
+# 환경변수선언
+export OPENBLAS_CORETYPE=ARMV8
