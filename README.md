@@ -1,6 +1,20 @@
 # MP_IG_v2
 # 엔비젼 SDK
 https://drive.google.com/file/d/1jBTOzNma-OTvPM2qyRAIB40FuQjDYuMu/view?usp=drive_link
+auto lo
+iface lo inet loopback
+
+auto eth0 
+iface eth0 inet static 
+address 202.31.99.229
+netmask 255.255.255.0
+gateway 169.253.5.1
+
+auto eth1 
+iface eth1 inet static 
+address 169.253.5.100
+netmask 255.255.255.0
+gateway 169.253.5.1
 
 sudo ./MVviewer.run force 
 
